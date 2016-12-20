@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<!--created 2016-12-17-->
+	<head>
+		<meta charset="UTF-8">
+		<title>Choice</title>	
+			<link type="text/css" rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="logo_img">
+				<img src="logo.jpg" Alt="logo" width="60" height="60">
+				<h1>Vlado Tour</h1>			
+			</div>			
+			<nav>
+				<ul >
+					<li><a href="home.html">Начало</a></li>
+					<li><a href="tours.html">Обиколки</a></li>
+					<li><a href="choice.html">Твоят избор</a></li>				
+					<li><a href="sightseengs.html">Забележителности</a></li>			
+					<li><a href="contacts.html">Контакти</a></li>
+				</ul>
+			</nav>																							
+		</header>
+		<div class="wrapper">
+			<div class="home1">	
+				<form method="post" action="mailto:d.ivanova0115@gmail.com">
+					<h2>Регистрация за участие в обиколка: </h2>
+					<p class="green">Име:
+					<input type="text" name="Fifst_name" ></p>
+					<p class="green">Фамилия:
+					<input type="text" name="Last_name" ></p>
+			
+					<p class="green">Какви езици владеете?:</p>
+					<p class="green">	Български
+					<input type="checkbox" name="language" value="bg">
+					Английски
+					<input type="checkbox" name="language" value="en">
+					Немски
+					<input type="checkbox" name="language" value="de">
+					
+					</p>
+					
+					<p class="green" id="date">В обиколката на коя дата ще участвате?:</p>
+					<p class="green">11 март 2017
+					<input type="radio" name="date" value="11_march">
+					18 март 2017
+					<input type="radio" name="date" value="18_march"></p>
+					<input type="submit" value="Регистрация">
+				</form>	
+			</div>
+			<div class="home2" >
+				<form method="post" action="mailto:d.ivanova0115@gmail.com">
+					<h2 id="other">В обиколките желая да бъдат включени следните обекти:</h2>
+					<select name="object">
+						<option value="1" selected="selected">Проход Вратцата</option>
+						<option value="2" >Наследствена пътека</option>
+						<option value="3" >Комплекс Вестителят</option>
+						<option value="4" >Велоалея Хижата-Чайка</option>
+						<option value="4" >Къщата на Баба Илийца</option>
+					</select>
+					<p>
+					Моето предложение за включчане на обект е следното:</p>
+					<textarea name="massage"> </textarea>
+					<p>		
+					<input type="submit" value="Гласуване"></p>
+				</form>	
+			</div>
+		</div>
+		<footer>
+			<p>&copy;2016-Всички права запазени! Проектирано от Диана Иванова.</p>
+		</footer>
+	</body>
+</html>	
